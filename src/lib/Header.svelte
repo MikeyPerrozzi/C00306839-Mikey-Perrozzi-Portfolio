@@ -6,8 +6,9 @@
 
 <header class="header">
     <div class="logo-area">
-        <img src={asset("/logo.png")} alt="Starter Kit Logo" />
-        <h1>Starter Kit</h1>
+        
+        <h1>Mikeys Portfolio</h1>
+        
     </div>
     <Navigation />
 </header>
@@ -31,6 +32,7 @@
         align-items: center;
         gap: var(--space-sm);
         font-family: var(--font-heading);
+         font-family:'papyrus';
     }
 
     .logo-area img {
@@ -50,6 +52,7 @@
         -webkit-text-fill-color: transparent;
         line-height: 1;
         animation: fadeInTitle 0.6s ease forwards;
+         font-family:'papyrus';
     }
 
     @keyframes fadeInTitle {

@@ -5,7 +5,6 @@
 
     const navigationItems = [
         { name: 'Home', path: '/' },
-        { name: 'Catalogue', path: '/catalogue' },
         { name: 'About', path: '/about' }
     ];
 
@@ -50,6 +49,7 @@
         width: 100%;
         gap: var(--space-lg);
         animation: fadeIn var(--transition-slow);
+         font-family:'papyrus';
     }
 
     .nav ul {
@@ -79,6 +79,7 @@
         padding: var(--space-xs) var(--space-sm);
         text-decoration: none;
         transition: color var(--transition-fast);
+         font-family:'papyrus';
     }
 
     .nav a::after {
@@ -92,6 +93,7 @@
         transform: scaleX(0);
         transform-origin: left;
         transition: transform var(--transition-fast);
+         font-family:'papyrus';
     }
 
     .nav a:hover::after,

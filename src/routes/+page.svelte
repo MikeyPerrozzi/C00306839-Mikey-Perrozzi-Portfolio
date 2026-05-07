@@ -24,7 +24,7 @@
 
 
 <svelte:head>
-    <title>Starter Kit</title>
+    <title>Mikeys Portfolio</title>
 </svelte:head>
 
 
@@ -32,37 +32,42 @@
 <div class="home-container">
     <!-- Hero Section -->
     <section class="hero">
-        <h1>Live Mindfully. Learn Purposefully.</h1>
+        <h1>Welcome to Mikey Perrozzi's Portfolio Site!</h1>
         <p class="subheading">
-            Inspired by the 7 Virtues of Bushidō and the 11 Principles of the Shinobi.
+        
         </p>
-        <button class="inspire-button" on:click={openQuoteModal}>
-            Find Inspiration
-        </button>
+       
     </section>
 
     <!-- Featured Catalogue Section -->
     <section class="featured">
-        <h2>Featured Practices</h2>
-        <div class="card-grid">
-            {#each featuredItems as item, index}
-                <button
-					type="button"
-					class="card-button"
-					on:click={() => goto(resolve('/catalogue/[title]', { title: item.title }))}
-					aria-label={`View details for ${item.title}`}
-				>
-                    <CatalogueCard
-                        title={item.title}
-                        description={item.description}
-                        image={item.image}
-                        category={item.category}
-                        tags={item.tags}
-                        animationDelay={index * 80}
-                    />
-                </button>
-            {/each}
+        <h2>Featured Art Pieces</h2>
+        <div class="FeaturedArt">
+            
+            <div>
+                <img class="Image" src="/images/jack.jpg" alt="this is jack o bonnie">
+                <p class="Title">Penis</p>
+
+            </div>
+
+             <div>
+              <img class="Image" src="/images/jack.jpg" alt="this is jack o bonnie">
+                <p class="Title">Penis</p>
+            </div>
+
+             <div>
+              <img class="Image" src="/images/jack.jpg" alt="this is jack o bonnie">
+                <p  class="Title">Penis</p>
+            </div>
+
+             <div>
+              <img class="Image" src="/images/jack.jpg" alt="this is jack o bonnie">
+                <p  class="Title">Penis</p>
+            </div>
+
+
         </div>
+        
         <a class="browse-link" href="{resolve('/catalogue')}">Browse Full Catalogue →</a>
     </section>
 
@@ -98,18 +103,20 @@
         padding: var(--space-xl) var(--space-md);
         border-radius: var(--radius-md);
         box-shadow: var(--shadow-sm);
-        background-image: url('/images/backgrounds/zen-hero.png');
+    
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         background-blend-mode: overlay;
-        background-color: rgba(255, 255, 255, 0.75);
+        background-color: rgba(122, 90, 64, 0.85);
+         font-family:'papyrus';
     }
 
     .hero h1 {
         font-size: var(--font-xxl);
         font-family: var(--font-heading);
         margin-bottom: var(--space-sm);
+        font-family:'papyrus';
     }
 
     .subheading {
@@ -117,32 +124,19 @@
         font-family: var(--font-body);
         color: var(--text-secondary);
         margin-bottom: var(--space-md);
+         font-family:'papyrus';
     }
 
-    .inspire-button {
-        padding: var(--space-sm) var(--space-lg);
-        background-color: var(--color-accent);
-        color: var(--text-contrast);
-        font-size: var(--font-base);
-        font-weight: 600;
-        border: none;
-        border-radius: var(--radius-sm);
-        cursor: pointer;
-        transition: background-color var(--transition-fast);
-    }
-
-    .inspire-button:hover,
-    .inspire-button:focus {
-        background-color: var(--color-highlight);
-    }
 
     /* Featured Section */
     .featured {
-        padding: 0 var(--space-md);
-        background-image: url('/images/backgrounds/rice-texture.png');
+        text-align: center;
+        padding: var(--space-xl) var(--space-md);
+        background-colour: #95cfff;
         background-size: 200px;
         background-repeat: repeat;
-        background-color: rgba(255, 255, 255, 0.85);
+        background-color: rgba(122, 90, 64, 0.85);
+       
     }
 
     .featured h2 {
@@ -150,7 +144,23 @@
         font-family: var(--font-heading);
         font-size: var(--font-xl);
         margin-bottom: var(--space-lg);
+        font-family:'papyrus';
     }
+
+    .FeaturedArt{
+
+        display:grid; 
+        grid-template-columns: repeat(4, 1fr);
+       
+        
+    }
+
+    .Title{
+        text-align: center;
+        font-family:'papyrus';
+    }
+
+   
 
 	/* Ensure button styling doesn’t interfere */
 	.card-button {
@@ -188,7 +198,7 @@
         background-color: var(--color-background);
         border-top: var(--border-default);
         background: linear-gradient(to top, var(--color-surface), transparent);
-        background-image: url('/images/backgrounds/scroll-teaser.png');
+        
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -217,4 +227,15 @@
     .learn-more:hover {
         text-decoration: underline;
     }
+
+    .Image{
+
+        width: 350px;
+        height: 350px;
+        border: 3px solid #d8a77a;
+    
+    }
+
+
+
 </style>
