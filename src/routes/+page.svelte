@@ -45,24 +45,24 @@
         <div class="FeaturedArt">
             
             <div>
-                <img class="Image" src="/images/jack.jpg" alt="this is jack o bonnie">
-                <p class="Title">Penis</p>
+                <img class="Image" src="/images/Zooble Drawing.jpg" alt="this is Zooble">
+                <p class="Title">Zooble</p>
 
             </div>
 
              <div>
-              <img class="Image" src="/images/jack.jpg" alt="this is jack o bonnie">
-                <p class="Title">Penis</p>
+              <img class="Image" src="/images/Spooky Guy.jpg" alt="this is Spooky Guy">
+                <p class="Title">Spooky Guy</p>
             </div>
 
              <div>
-              <img class="Image" src="/images/jack.jpg" alt="this is jack o bonnie">
-                <p  class="Title">Penis</p>
+              <img class="Image" src="/images/Steam Bot.jpg" alt="this is Steam Bot">
+                <p  class="Title">Steam Robot</p>
             </div>
 
              <div>
-              <img class="Image" src="/images/jack.jpg" alt="this is jack o bonnie">
-                <p  class="Title">Penis</p>
+              <img class="Image" src="/images/Enviroment Bot.jpg" alt="this is Enviroment Bot">
+                <p  class="Title">Environment Bot</p>
             </div>
 
 
