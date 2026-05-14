@@ -68,16 +68,13 @@
 
         </div>
         
-        <a class="browse-link" href="{resolve('/catalogue')}">Browse Full Catalogue →</a>
+        <a class="browse-link" href="{resolve('/catalogue')}">Browse Art Catalouge →</a>
     </section>
 
     <!-- About Teaser Section -->
     <section class="about-teaser">
-        <h2>Why This Matters</h2>
-        <p>
-            This project blends timeless wisdom with modern habits — from Stoic journaling to Shinobi adaptability.
-            Whether you seek health, discipline, or mindfulness, our tools are here to guide you.
-        </p>
+        <h2>Want to learn more about me?</h2>
+        
         <a href="{resolve('/about')}" class="learn-more">Learn more →</a>
     </section>
 
@@ -188,7 +185,7 @@
         margin-top: var(--space-md);
         font-weight: 500;
         text-decoration: none;
-        color: var(--color-accent);
+        color: rgb(230, 255, 202);
     }
 
     /* About Teaser */
@@ -231,7 +228,7 @@
     .Image{
 
         width: 350px;
-        height: 350px;
+        height: 440px;
         border: 3px solid #d8a77a;
     
     }

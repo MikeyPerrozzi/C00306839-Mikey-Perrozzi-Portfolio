@@ -118,7 +118,7 @@
     }
 
     .catalogue-heading-wrapper {
-        background-image: url('/images/backgrounds/scroll-teaser.png');
+        
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
