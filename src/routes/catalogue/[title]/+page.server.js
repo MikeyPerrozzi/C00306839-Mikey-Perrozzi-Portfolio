@@ -1,6 +1,6 @@
 export async function entries() {
 	return [
-		{ title: "Steam Bot" },
+		{ title: "coach z" },
 		{ title: "Digital Declutter" },
 		{ title: "Evening Journaling" },
 		{ title: "Breath Awareness" },
