@@ -5,6 +5,7 @@
     import { CatalogueCard, Modal } from '$lib/components';
     import { catalogue } from '$lib/stores/catalogueStore.js';
     import { currentQuote, setRandomQuote } from '$lib/stores/quoteStore.js';
+    import { asset } from '$app/paths';
     
     let showQuoteModal = false;
 
@@ -45,23 +46,23 @@
         <div class="FeaturedArt">
             
             <div>
-                <img class="Image" src="/images/Zooble Drawing.jpg" alt="this is Zooble">
+                <img class="Image" src={asset("/images/Zooble Drawing.jpg")} alt="this is Zooble">
                 <p class="Title">Zooble</p>
 
             </div>
 
              <div>
-              <img class="Image" src="/images/Spooky Guy.jpg" alt="this is Spooky Guy">
+              <img class="Image" src={asset("/images/Spooky Guy.jpg")} alt="this is Spooky Guy">
                 <p class="Title">Spooky Guy</p>
             </div>
 
              <div>
-              <img class="Image" src="/images/Steam Bot.jpg" alt="this is Steam Bot">
+              <img class="Image" src={asset("/images/Steam Bot.jpg")} alt="this is Steam Bot">
                 <p  class="Title">Steam Robot</p>
             </div>
 
              <div>
-              <img class="Image" src="/images/Enviroment Bot.jpg" alt="this is Enviroment Bot">
+              <img class="Image" src={asset("/images/Enviroment Bot.jpg")} alt="this is Enviroment Bot">
                 <p  class="Title">Environment Bot</p>
             </div>
 
