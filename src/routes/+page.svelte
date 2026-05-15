@@ -48,7 +48,6 @@
             <div>
                 <img class="Image" src={asset("/images/Zooble Drawing.jpg")} alt="this is Zooble">
                 <p class="Title">Zooble</p>
-
             </div>
 
              <div>
