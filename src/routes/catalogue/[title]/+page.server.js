@@ -1,20 +1,20 @@
 export async function entries() {
 	return [
-		{ title: "coach z" },
-		{ title: "Digital Declutter" },
-		{ title: "Evening Journaling" },
-		{ title: "Breath Awareness" },
-		{ title: "Nature Walks" },
-		{ title: "Weekly Reflection" },
-		{ title: "Obstacle Reframing" },
-		{ title: "One-Meal Fasting Practice" },
-		{ title: "Power Posture Drills" },
-		{ title: "Visualisation Ritual" },
-		{ title: "Cold Exposure Start" },
-		{ title: "The 5-Minute Mind Sweep" },
-		{ title: "Honor Code Exercise" },
-		{ title: "Gratitude Bow Practice" },
-		{ title: "Tea Ceremony Lite" }
+		{ title: "Dynamo" },
+		{ title: "Celeste" },
+		{ title: "Allen" },
+		{ title: "Omni Man" },
+		{ title: "Caine" },
+		{ title: "Golurk" },
+		{ title: "Phantom Freddy" },
+		{ title: "Pit Rabbit" },
+		{ title: "Battle Beast VS Thragg" },
+		{ title: "Sinister Mark" },
+		{ title: "Mortality" },
+		{ title: "Conquest" },
+		{ title: "Tree Protector" },
+		{ title: "Maragma" },
+		{ title: "Treasure Dragon" }
 		// Add all valid catalogue IDs here
 	];
 }
